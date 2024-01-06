@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Transaction.create([{ amount: 123.05, description: 'funding transaction', date: DateTime.now }])
